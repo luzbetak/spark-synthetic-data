@@ -67,15 +67,14 @@ def load_slices_distribution():
 # --------------------------------------------------------------------------------#
 if __name__ == "__main__":
 
-    # client = "90-ddl/01-verizon-ddl"
-    # client = "90-ddl/02-test-ddl"
-    # client_in = client + ".sql"
-    # client_ou = client + ".yaml"
+    client = "90-ddl/02-test-ddl"
+    client_in = client + ".sql"
+    client_ou = client + ".yaml"
 
-    # print(client_in)
-    # print(client_ou)
-    # load_ddl(client_in, client_ou)
-    # load_yaml(client_ou)
+    print(client_in)
+    print(client_ou)
+    load_ddl(client_in, client_ou)
+    load_yaml(client_ou)
 
     load_slices_distribution()
 
